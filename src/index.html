@@ -10,7 +10,42 @@
 </head>
 <body>
    <div class="container">
-    <h1>Sablon</h1>
+    <h1>Bérlés</h1>
+    <div>
+<div class="mt-3">
+    <div><h3>Eladó</h3></div>
+    <div class="mt-3">
+    <input type="text" placeholder="eladó neve" class="form-control" value="Béla">
+    </div>
+    <div class="mt-0">
+        <input type="radio" id="owner"
+        name="vendor" class="form-check-input">
+        <label for="owner" class="form-check-label">Tulajdonos</label>
+    </div>
+    <div class="mt-0">
+        <input type="radio" id="renter"
+        name="vendor" class="form-check-input">
+        <label for="renter" class="form-check-label">Bérlő</label>
+    </div>
+</div>
+<!--Vevő adatai-->
+<div class="mt-3">
+    <div><h3>Vevő</h3></div>
+    <div class="mt-3">
+    <input type="text" placeholder="Bérlő neve" class="form-control" value="Mari">
+    </div>
+    <div class="mt-0">
+        <input type="radio" id="cusRenter"
+        name="customer" class="form-check-input">
+        <label for="cusRenter" class="form-check-label">Albérlő</label>
+    </div>
+    <div class="mt-0">
+        <input type="radio" id="cusSubrenter"
+        name="customer" class="form-check-input">
+        <label for="cusSubrenter" class="form-check-label">Bérlő</label>
+    </div>
+</div>
+    </div>
    </div>
     <script src="app.js"></script> 
     <script src="js/bootstrap.js"></script>
