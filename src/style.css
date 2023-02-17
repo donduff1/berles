@@ -1,0 +1,8 @@
+h1{
+    background-image: url(https://www.fau.edu/newsdesk/images/news/for-rent-sign.jpg);
+    height: 200px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
